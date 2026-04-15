@@ -103,3 +103,8 @@ serde-bincode-compat = [
 name = "proof_v2"
 required-features = ["test-utils"]
 harness = false
+
+[[bench]]
+name = "hashed_post_state_cursor"
+required-features = ["test-utils"]
+harness = false
